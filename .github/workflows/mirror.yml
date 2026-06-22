@@ -20,4 +20,4 @@ jobs:
           git clone --bare https://gitlab.com/team-simpy/simpy.git upstream.git
           cd upstream.git
           git push --mirror \
-            "https://x-access-token:${{ secrets.MIRROR_PAT }}@github.com/xxxand/simpy-mirror.git"
+            "https://x-access-token:${{ secrets.MIRROR_PAT }}@github.com/xxxand/simpy.git"
